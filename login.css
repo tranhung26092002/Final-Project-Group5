@@ -69,13 +69,6 @@ input:valid ~ label{
     font-size: 1.2em;
     top: 20px;
 }
-.inputbox .password-checkbox p{
-    width: 100%;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
 .forget{
     margin: -15px 0 15px;
     font-size: 0.9em;
