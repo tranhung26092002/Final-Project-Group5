@@ -8,31 +8,104 @@
         <title>Login</title>
     </head>
     <body>
-        <section>
-            <div class="form-box">
-                <div class="form-value">
-                    <form action="">
-                        <h2>Login</h2>
-                        <div class="inputbox">
-                            <i class='bx bx-envelope'></i>
-                            <input type="text" class="email" required>
-                            <label for="">Email</label>
-                        </div>
-                        <div class="inputbox">
+        <header>
+            <h2 class="logo">Logo</h2>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <button class="btnLogin-popup"> Login </button>
+            </nav>
+        </header>
+        <div class="wrapper">
+<!--icon close-->
+            <span class="icon-close">
+                <i class='bx bx-x'></i>
+            </span>
+<!--Login-->
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <!--Email-->
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bx-envelope' ></i>
+                        </span>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <!--Password-->
+                    <div class="input-box">
+                        <span class="icon">
                             <i class='bx bx-lock'></i>
-                            <input type="password" class="password"  required>
-                            <label for="">Password</label>
-                        </div>
-                        <div class="forget">
-                            <label for=""><input type="checkbox">Remember Me | <a href="#">Forget Password</a></label>
-                        </div>
-                        <button>Login</button>
-                        <div class="register">
-                            <p>Don't have a account | <a href="#">Register</a></p>
-                        </div>
-                    </form>
-                </div>
+                        </span>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <!--Remember-Forgot-->
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <!--Sumit-->
+                    <button type="submit" class="btn">Login</button>
+                    <!--Login-Register-->
+                    <div class="login-register">
+                        <p>Don't have an account?
+                            <a href="#" class="register-link">Regester</a>
+                        </p>
+                    </div>
+                </form>
             </div>
-        </section>
+<!--Register-->
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <!-- User -->
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bx-user'></i>
+                        </span>
+                        <input type="text" required>
+                        <label for="">Username</label>
+                    </div>
+                    <!-- Email -->
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bx-envelope' ></i>
+                        </span>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <!-- Pass -->
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bx-lock'></i>
+                        </span>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <!-- Agree -->
+                    <div class="agree">
+                        <label for=""><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <!-- Submit -->
+                    <button type="submit" class="btn">Register</button>
+                    <!-- Login-Register -->
+                    <div class="login-register">
+                        <p>Already have an account?
+                            <a href="#" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
     </body>
 </html>
