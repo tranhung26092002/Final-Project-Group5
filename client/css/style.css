@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #fbfffb;
+    background: url(/img1/nen1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -103,7 +103,7 @@ header:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;|
+    background-color: #fff;
 }
 .delivery-top-item i {
     color: #dddddd;
@@ -143,7 +143,7 @@ header:hover{
     margin: 12px 0;
 }
 .delivery-content-left-khachle input{
-    margin right: 12px;
+    margin-right: 12px;
 }
 .delivery-content-left-dangky{
     margin-bottom: 30px;
